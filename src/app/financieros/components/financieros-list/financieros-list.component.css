@@ -1,0 +1,87 @@
+.financierosContainer{
+  padding: 10px;
+  margin: 5rem;
+  /* width: 70%; */
+  /* height: 60vh; */
+  /* margin: 2rem; */
+}
+
+.searchContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.searchButton {
+
+  border-radius: 5px;
+  border: none;
+  background-color: #ffdd00;
+  padding: 10px;
+  height: 40px;
+  color: #0f265c;
+  transition: all .5s ease-in-out
+
+}
+
+.searchButton:hover {
+  background-color: #ffd100;
+}
+
+.searchInput {
+  /* padding: 2px; */
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+.tableList{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  background-color: white;
+}
+
+
+tr {
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  /* border-spacing: 10px 5px; */
+  /* margin: 5px; */
+
+}
+
+
+.fiancierosFooter{
+  display: flex;
+  justify-content: space-between;
+    align-items: baseline;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.financierosSelect{
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+
+
+.contextualButton{
+  transform: rotate(90deg);
+  background-color: transparent;
+  border: none;
+  font-size: medium;
+  transition: all .5s ease-in-out
+}
+
+.contextualButton:hover{
+  background-color: rgb(165, 165, 162);
+}
+/* td {
+  margin: 10px;
+} */
